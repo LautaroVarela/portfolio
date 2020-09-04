@@ -1,4 +1,5 @@
-# vue-primer-proyecto
+# Personal portfolio
+This is built with VueJS, Javascript, Bootstrap, HTML, SCSS
 
 ## Project setup
 ```
