@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Project 01",
+      "details": "This project is built with VueJS & Bootstrap",
+      "id": 1
+    },
+    {
+        "name": "Project 02",
+        "details": "This project is built with VueJS & Bootstrap",
+        "id": 2
+    },
+    {
+        "name": "Project 03",
+        "details": "This project is built with VueJS, Bootstrap & Vuetify",
+        "id": 3
+      }
+    
+  ]
+  

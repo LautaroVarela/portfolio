@@ -1,0 +1,58 @@
+// this scss file is for customizing BootstrapVue variables
+
+// Color theming
+// Custom pallete
+$white: white !default;
+$black: black !default;
+$green: #182126 !default;
+$blue: #252551 !default;
+$purple: #342959 !default;
+$orange: #c2732d !default;
+
+$primary: $blue !default;
+$secondary: $green !default;
+$success: $orange !default;
+
+// navbar dark
+
+$navbar-dark-color: $white !default;
+$navbar-dark-hover-color: $orange !default;
+$navbar-dark-active-color: $orange !default;
+$navbar-dark-disabled-color: rgba($orange, .25) !default;
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")
+	!default;
+$navbar-dark-toggler-border-color: rgba($orange, .1) !default;
+
+// fonts
+
+$font-family-sans-serif: "Roboto", sans-serif !default;
+$font-family-monospace: "Roboto", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+//buttons
+$btn-box-shadow: inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+$btn-disabled-opacity: .65 !default;
+$btn-active-box-shadow: inset 0 3px 5px rgba($black, .125) !default;
+
+$btn-link-disabled-color: $orange !default;
+
+$btn-font-family: $font-family-sans-serif;
+
+// global styles
+
+$body-bg: $white !default;
+// $body-color: $gray-900 !default;
+
+body {
+	background-color: $body-bg;
+}
+
+// $primary: $navcolor !default;
+// FIN
+
+// Luego de haber sobreescrito las variables ya puedes seguir con lo que dice la documentación
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,400&display=swap');
+
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+// Mirar el componente App.vue
